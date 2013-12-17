@@ -53,5 +53,5 @@ li {
     }
 
   #menu > li:hover ul {
-   top: 3.9em; 
+   top: 3.9em!important; 
   }
