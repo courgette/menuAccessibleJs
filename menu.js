@@ -2,8 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.querySelector("html").className = 'js';
 
-  var menu = document.getElementById('menu'),
-      liMenu = document.querySelectorAll('#menu > li');
+  var liMenu = document.querySelectorAll('#menu > li');
 
   [].forEach.call(liMenu, function(el) {
     el.addEventListener('focusin', function() {
