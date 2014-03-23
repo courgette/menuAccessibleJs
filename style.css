@@ -52,6 +52,6 @@ li {
       background: #2c3e50;
     }
 
-  #menu > li:hover ul {
+  #menu > li:hover ul, #menu > li:focus ul {
    top: 3.9em!important; 
   }
